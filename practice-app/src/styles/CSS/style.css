@@ -11,4 +11,9 @@ body,
 .home h1 {
   color: #373737;
 }
+
+.home .post {
+  border: 1px solid #000;
+  margin: 30px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -15,10 +15,10 @@ const MyButton = styled(Button)({
   fontSize: '24px',
 });
 
-function ButtonM() {
+function ButtonM(props) {
   return (
     <div>
-      <MyButton>Button</MyButton>
+      <MyButton onClick={props.click} disabled={props.dis}>{props.text} </MyButton>
     </div>
   )
 }
