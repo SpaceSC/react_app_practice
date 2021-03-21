@@ -14,11 +14,24 @@ const useStyles = makeStyles({
     stroke: '#FE6B8B',
     width: '100px',
     height: '100px',
+    border: '1px solid #FE6B8B',
     '&:hover': {
       color: '#fff',
       stroke: '#fff',
       backgroundColor: '#FE6B8B',
-    }
+    },
+    '@media (max-width: 1160px)': {
+      width: '90px',
+      height: '90px',
+    },
+    '@media (max-width: 750px)': {
+      width: '80px',
+      height: '80px',
+    },
+    '@media (max-width: 450px)': {
+      width: '70px',
+      height: '70px',
+    },
   },
   menuH: {
     position: 'absolute',
@@ -27,6 +40,15 @@ const useStyles = makeStyles({
   },
   icon: {
     fontSize: '65px',
+    '@media (max-width: 1160px)': {
+      fontSize: '55px',
+    },
+    '@media (max-width: 750px)': {
+      fontSize: '45px',
+    },
+    '@media (max-width: 450px)': {
+      fontSize: '35px',
+    },
   }
 });
 
@@ -71,6 +93,8 @@ function MenuH() {
           style: {
             maxHeight: '150px',
             width: '20ch',
+            backgroundColor:'#FF8E53',
+            color: '#fff',
           },
         }}
       >

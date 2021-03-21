@@ -1,9 +1,14 @@
 *,
+body,
 ::before,
 ::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.home h1 {
+  color: #373737;
 }
 /*# sourceMappingURL=style.css.map */
